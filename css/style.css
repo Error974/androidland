@@ -76,7 +76,7 @@ blockquote .small, blockquote footer, blockquote small {
 #bg_pattern {
   background-image: url("../img/bg_pattern.png");
   position: fixed;
-  opacity: 0.8;
+  opacity: 6.8;
   left: 0px;
   top: 0px;
   width: 100%;
@@ -1267,7 +1267,7 @@ ul#portfolio-filter a:hover {
 ul#portfolio-filter img { margin:15px 0; }
 
 ul#portfolio-filter h4 {
-	margin-bottom:0px;	
+	margin-bottom:0px;
 }
 
 
@@ -1290,7 +1290,7 @@ ul#portfolio-filter .item-wrapper .overlay{
 	  background: url("../img/trans-dot.png.html") repeat top left;
 	 h4 {
 		color:$body-text-color;
-	 } 
+	 }
 }
 
 
@@ -1299,7 +1299,7 @@ ul#portfolio-filter .item-wrapper .overlay{
 ul#portfolio-filter .item-wrapper:hover .overlay {
 	@include transition-all(all .3s ease-in-out);
 	background: url("../img/trans-dot.png.html") repeat top left;
-	
+
 }
 
 
@@ -1308,8 +1308,8 @@ ul#portfolio-filter .info {
 }
 
 
-ul#portfolio-filter .no-padd img { 
-	margin:0;	
+ul#portfolio-filter .no-padd img {
+	margin:0;
 }
 
 */
@@ -2062,7 +2062,7 @@ ul#portfolio-filter .no-padd img {
 
 @media (max-width:520px) {
 
-.contact-info { 
+.contact-info {
 		li {
 			width:100%;
 		}
