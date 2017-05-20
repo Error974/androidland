@@ -5,3 +5,13 @@
 p {
   font-weight: bold;
 }
+.with-background-heroic-1 {
+  background-image: url('../img/photos/univers/heroic/post1.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.with-background-heroic-1 p {
+  color:black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
