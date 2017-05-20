@@ -118,9 +118,9 @@
 	jQuery(document).ready(function () {
 		if($('.slider-background').length > 0){
 			 $.backstretch([
-				  "img/bg3.jpg"
+				 	"img/bg1.jpg"
 				, "img/bg2.jpg"
-				, "img/bg1.jpg"
+				, "img/bg3.jpg"
 			  ], {duration: 4000, fade: 1000});
 		}
 	});
