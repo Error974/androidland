@@ -1,79 +1,79 @@
-	
+
 	//prevent # links from moving to top
-	
+
 	$('a[href="#"][data-top!=true]').click(function(e){
 		e.preventDefault();
 	});
-	
-	
+
+
 	//	SMOOTH SCROLL
 	smoothScroll.init({
 		offset: 0
 	});
-	
-	
-	//GALLERY	
-	if($('.popup-link').length > 0){	
-		$('.popup-link').magnificPopup({ 
+
+
+	//GALLERY
+	if($('.popup-link').length > 0){
+		$('.popup-link').magnificPopup({
 		  type: 'image',
 		  gallery:{
 			enabled:true
 		  }
 			// other options
 		});
-	}	
-	
-	
-	
-	
+	}
+
+
+
+
 	//  toggle menu
 	$( ".menu-block" ).hide();
-	
+
 	$( ".toggle-nav" ).click(function() {
 		$( ".menu-block" ).slideToggle( "slow");
 	});
-	
+
 	$( ".menu li a, #toggle-close" ).click(function() {
 		$( ".menu-block" ).slideToggle( "slow");
 	});
-	
-	
+
+
 	// PORTFOLIO FILTER
-		
+
 	$(document).ready(function() {
 	  $('ul#filter a').click(function() {
 		$(this).css('outline','none');
 		$('ul#filter .current').removeClass('current');
 		$(this).parent().addClass('current');
-		
-		var filterVal = $(this).text().toLowerCase().replace(' ','-');
-		
 
-		
+		var filterVal = $(this).text().toLowerCase().replace(' ','-');
+
+
+
 		if(filterVal == 'all') {
 		  $('ul#portfolio-filter li.hidden').fadeIn('slow').removeClass('hidden');
 		} else {
 		  $('ul#portfolio-filter li').each(function() {
-							
+
 			if(!$(this).hasClass(filterVal)) {
 			  $(this).fadeOut('normal').addClass('hidden');
 
-				
+
 			} else {
 			$(this).fadeIn('slow').removeClass('hidden');
 
 			}
 		  });
 		}
-		
+
 		return false;
 	  });
 	});
-	
-	
+
+
 	//	SCROLL
 
-	$(window).scroll(function() {    
+	$(window).scroll(function() {
 		var scroll = $(window).scrollTop();
 
 		if (scroll >= 100) {
@@ -81,51 +81,51 @@
 		} else {
 			$(".navbar-inverse").removeClass("navbar-scroll");
 		}
-				
+
 	});
-	
-	
-	
+
+
+
 	//	ONEPAGE ACTIVE LINK
-	
+
 	jQuery(document).ready(function() {
-	
+
 		var sections = $('section')
 		  , nav = $('nav')
 		  , nav_height = nav.outerHeight();
-		 
+
 		$(window).on('scroll', function () {
 		  var cur_pos = $(this).scrollTop();
-		 
+
 		  sections.each(function() {
 			var top = $(this).offset().top - nav_height,
 				bottom = top + $(this).outerHeight();
-		 
+
 			if (cur_pos >= top && cur_pos <= bottom) {
 			  nav.find('a').removeClass('active');
 			  sections.removeClass('active');
-		 
+
 			  $(this).addClass('active');
 			  nav.find('a[href="#'+$(this).attr('id')+'"]').addClass('active');
 			}
 		  });
 		});
 	});
-	
-	
+
+
 	//	SLIDER BACKGROUND  (BACKSTRETCH)
-	
+
 	jQuery(document).ready(function () {
 		if($('.slider-background').length > 0){
 			 $.backstretch([
-				  "img/bg4.jpg"
-				, "img/bg5.jpg"
+				  "img/bg3.jpg"
 				, "img/bg2.jpg"
+				, "img/bg1.jpg"
 			  ], {duration: 4000, fade: 1000});
-		}		
+		}
 	});
 
-	
+
 	//	MENU-TOGGLE
 
 	jQuery(document).ready(function () {
@@ -133,15 +133,15 @@
 			 $( ".menu" ).slideToggle( "slow", function() {
 				// Animation complete.
 			  });
-			
+
 		});
 	});
-	
-	
 
-	
+
+
+
 	//	SCROLL TO TOP
-	
+
 	$(document).ready(function(){
 
 		//Check to see if the window is top if not then display button
@@ -152,18 +152,18 @@
 				$('.scrollToTop').fadeOut();
 			}
 		});
-		
+
 		//Click event to scroll to top
 		$('.scrollToTop').click(function(){
 			$('html, body').animate({scrollTop : 0},800);
 			return false;
 		});
-		
-	});	
-	
-	
+
+	});
+
+
 	//	PRELOADER
-	
+
 	//<![CDATA[
 		$(window).load(function() { // makes sure the whole site is loaded
 			$('#status').fadeOut(); // will first fade out the loading animation
@@ -171,22 +171,22 @@
 			$('body').delay(350).css({'overflow':'visible'});
 		})
 	//]]>
-	
-	
-	// BANNER CAROUSEL	
-		
+
+
+	// BANNER CAROUSEL
+
 	$(document).ready(function() {
-		if($('#slider').length > 0){	
+		if($('#slider').length > 0){
 			var owl = $("#slider");
-		 
-			owl.owlCarousel({			 
+
+			owl.owlCarousel({
 				//items : 1,
-				
+
 				autoPlay : true,
 				pagination : true,
-				singleItem:true	
+				singleItem:true
 			});
-		  
+
 			// Custom Navigation Events
 			$(".next").click(function(){
 				owl.trigger('owl.next');
@@ -196,22 +196,22 @@
 			})
 		}
 
-	});	
-	
-	// TESTIMONIAL CAROUSEL	
-		
+	});
+
+	// TESTIMONIAL CAROUSEL
+
 	$(document).ready(function() {
 		if($('#testimonial-carousel').length > 0){
 			var owl = $("#testimonial-carousel");
-		 
-			owl.owlCarousel({			 
+
+			owl.owlCarousel({
 				//items : 1,
-				
+
 				autoPlay : true,
 				pagination : true,
-				singleItem:true	
+				singleItem:true
 			});
-		  
+
 			// Custom Navigation Events
 			$(".next").click(function(){
 				owl.trigger('owl.next');
@@ -221,21 +221,21 @@
 			})
 		}
 
-	});	
-	
-	// BLOG CAROUSEL	
-		
+	});
+
+	// BLOG CAROUSEL
+
 	$(document).ready(function() {
-	
+
 		if($('#blog-carousel, #blog-carousel2').length > 0){
-			 var owl = $("#blog-carousel, #blog-carousel2");		 
-				
+			 var owl = $("#blog-carousel, #blog-carousel2");
+
 			  owl.owlCarousel({
 					items : 4,
 					autoPlay : true,
 					pagination : true
 			  });
-				
+
 			  // Custom Navigation Events
 			  $(".next").click(function(){
 					owl.trigger('owl.next');
@@ -245,11 +245,11 @@
 			  })
 		  }
 
-	});	
-	
-	
+	});
+
+
 	//	WOW
-	
+
 	var wow = new WOW(
 	  {
 		boxClass:     'wow',      // animated element css class (default is wow)
@@ -265,11 +265,11 @@
 	  }
 	);
 	wow.init();
-	
-	
-	
-	
-	
+
+
+
+
+
 	$(function(){
 		if($('.element').length > 0){
 		  $(".element").typed({
@@ -280,35 +280,35 @@
 		  });
 	  }
   });
-	
-	
-	 //	COUNTDOWN	
-		
-	if($('#countdown').length > 0){		
+
+
+	 //	COUNTDOWN
+
+	if($('#countdown').length > 0){
 		 $('#countdown').countdown('2016/12/03', function(event) {
 		   var $this = $(this).html(event.strftime(''
 			 + '<div class="box"><span>%w</span><br> Weeks </div> '
 			 + '<div class="box"><span>%d</span><br> days </div>  '
 			 + '<div class="box"><span>%H</span><br> hr </div>  '
 			 + '<div class="box"><span>%M</span><br> min </div> '
-			 + '<div class="box"><span>%S</span><br> sec </div> '));			
+			 + '<div class="box"><span>%S</span><br> sec </div> '));
 		 });
 	 }
-	
-	
-	
+
+
+
 // ****************************************************************
 // Form Validation  -  Contact Form
-// ****************************************************************			
-		
+// ****************************************************************
+
 /*
 	Jquery Validation using jqBootstrapValidation
-   example is taken from jqBootstrapValidation docs 
+   example is taken from jqBootstrapValidation docs
   */
- 
- 
-  
-$(document).ready(function() {	
+
+
+
+$(document).ready(function() {
 	if($('#contactForm').length > 0){
     $("input,textarea").jqBootstrapValidation({
         preventSubmit: true,
@@ -370,9 +370,9 @@ $(document).ready(function() {
         e.preventDefault();
         $(this).tab("show");
     });
-	
+
 	 }
-	
+
 });
 
 
@@ -380,17 +380,13 @@ $(document).ready(function() {
 $('#name').focus(function() {
     $('#success').html('');
 });
-	
-	
-	
-	
-	
+
+
+
+
+
 $(document).on('click','.navbar-collapse.in',function(e) {
     if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle' ) {
         $(this).collapse('hide');
     }
-});	
-	
-	
-
-	
+});
