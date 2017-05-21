@@ -139,7 +139,7 @@
 
 									</ul>
 
-									<a href="#" id="formule1" class="btn btn-dark btn-lg btn-block">Sélectionner cette offre</a>
+									<a href="#offre" id="formule1" class="btn btn-dark btn-lg btn-block">Sélectionner cette offre</a>
 
 								</div>
 
@@ -202,7 +202,7 @@
 										<li>Accès piscine gratuite</li>
 										<li>Accès Scénarios/Animations</li>
 									</ul>
-									<a href="#" id="formule3" class="btn btn-dark btn-lg btn-block">En savoir plus</a>
+									<a href="#offre" id="formule3" class="btn btn-dark btn-lg btn-block">En savoir plus</a>
 								</div>
 							</div>
 							<p>*Tarifs dégressif pour association et comité entreprise, merci de prendre contact au 0262 123 456 ou mail contact@androidland.com</p>
@@ -230,7 +230,7 @@
      </div>
      <div class="form-group ">
       <label class="control-label " for="name3">
-       Num&eacute;ro adh&eacute;rent
+       Numéro adhérent
       </label>
       <input class="form-control" id="name3" name="name3" type="text"/>
      </div>
@@ -245,7 +245,7 @@
      </div>
      <div class="form-group ">
       <label class="control-label requiredField" for="date_arrive">
-       Date arriv&eacute;
+       Date arrivé;
        <span class="asteriskField">
         *
        </span>
@@ -258,7 +258,7 @@
        <input class="form-control" id="date_arrive" name="date_arrive" placeholder="DD/MM/YYYY" type="text"/>
       </div>
       <span class="help-block" id="hint_date_arrive">
-       Date d'arriv&eacute; pr&eacute;vu &agrave; AndroidLand
+       Date d'arrivé prévu à AndroidLand
       </span>
      </div>
      <div class="form-group ">
@@ -270,7 +270,7 @@
       </label>
       <input class="form-control" id="date_depart" name="date_depart" placeholder="DD/MM/YYYY" type="text"/>
       <span class="help-block" id="hint_date_depart">
-       Date de d&eacute;part d'AndroidLand
+       Date de départ d'AndroidLand
       </span>
      </div>
      <div class="form-group ">
