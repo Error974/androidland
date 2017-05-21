@@ -173,7 +173,7 @@
 
 									</ul>
 
-									<a href="#" id="formule2" class="btn btn-dark btn-lg btn-block">Sélectionner cette offre</a>
+									<a href="#offre" id="formule2" class="btn btn-dark btn-lg btn-block">Sélectionner cette offre</a>
 
 								</div>
 
@@ -422,6 +422,6 @@
 
 		<!-- main js -->
 		<script src="js/main.js"></script>		<script src="js/jsdetail.js" charset="utf-8"></script>
-
+		<script type="text/javascript">				$('#formule1').click(function(){		  	$('#offre').removeAttr('style');		  	$('#name2').val('Tarif Simple');		 		});		</script>				<script type="text/javascript">				$('#formule2').click(function(){		  	$('#offre').removeAttr('style');		  	$('#name2').val('Tarif Groupe/Famille');		 		});		</script>				<script type="text/javascript">				$('#formule3').click(function(){		  	$('#offre').removeAttr('style');		  	$('#name2').val('Tarif Premium');		 		});		</script>
 	</body>
 </html>
