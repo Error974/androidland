@@ -65,7 +65,7 @@
 
       $dateDebut = $_POST['date_arrive'];
       $dateDepart = $_POST['date_depart'];
-      $nombres = $_POST['number'];
+      $nombres = $_POST['nombres'];
       $code = md5($dateDebut.$dateDepart.$nombres);
 
 

@@ -383,83 +383,116 @@
 				<div style="margin-top: 70px;"></div>
     </div>
 
-<div class="container" id="offre" style="display: none;">
-	<div class="price-box2">
- <div class="container-fluid">
-  <div class="row">
-   <div class="col-md-6 col-sm-6 col-xs-12">
-    <form method="post">
-     <div class="form-group ">
-      <label class="control-label " for="name2">
-       formule
-      </label>
-      <input class="form-control" id="name2" name="name2" type="text"/>
-     </div>
-     <div class="form-group ">
-      <label class="control-label " for="name3">
-       Numéro adhérent
-      </label>
-      <input class="form-control" id="name3" name="name3" type="text"/>
-     </div>
-     <div class="form-group ">
-      <label class="control-label requiredField" for="number">
-       Nombre de personne
-       <span class="asteriskField">
-        *
-       </span>
-      </label>
-      <input class="form-control" id="number" name="number" type="text"/>
-     </div>
-     <div class="form-group ">
-      <label class="control-label requiredField" for="date_arrive">
-       Date arrivé;
-       <span class="asteriskField">
-        *
-       </span>
-      </label>
-      <div class="input-group">
-       <div class="input-group-addon">
-        <i class="fa fa-calendar-plus-o">
-        </i>
-       </div>
-       <input class="form-control" id="date_arrive" name="date_arrive" placeholder="DD/MM/YYYY" type="text"/>
-      </div>
-      <span class="help-block" id="hint_date_arrive">
-       Date d'arrivé prévu à AndroidLand
-      </span>
-     </div>
-     <div class="form-group ">
-      <label class="control-label requiredField" for="date_depart">
-       Date depart
-       <span class="asteriskField">
-        *
-       </span>
-      </label>
-      <input class="form-control" id="date_depart" name="date_depart" placeholder="DD/MM/YYYY" type="text"/>
-      <span class="help-block" id="hint_date_depart">
-       Date de départ d'AndroidLand
-      </span>
-     </div>
-     <div class="form-group ">
-      <label class="control-label " for="totalPrix">
-       total
-      </label>
-      <input class="form-control" id="totalPrix" name="totalPrix" placeholder="0.00&euro;" type="text"/>
-     </div>
-     <div class="form-group">
-      <div>
-       <button class="btn btn-primary " name="submit" type="submit">
-        Valider
-       </button>
-      </div>
-     </div>
-    </form>
-   </div>
-  </div>
- </div>
-</div>
-</div>
+		<!-- formulaire resa -->
+		<div class="container" id="offre" style="display: none;">
+			<div class="price-box2">
+				<form method="post" action="printBillet.php">
+		 <div class="container-fluid">
+		  <div class="row">
+		   <div class="col-md-6 col-sm-6 col-xs-12">
+		     <div class="form-group " hidden>
+		      <input class="form-control" id="name2" name="name2" type="text"/>
+		     </div>
+		     <div class="form-group ">
+		      <label class="control-label " for="name3">
+		       Numéro adhérent si carte premium
+		      </label>
+		      <input class="form-control" id="name3" name="name3" type="text"/>
+		     </div>
+		     <div class="form-group ">
+		      <label class="control-label requiredField" for="number">
+		       Nombre de personne
+		       <span class="asteriskField">
+		        *
+		       </span>
+		      </label>
+		      <input class="form-control" id="number" name="nombres" type="text"/>
+		     </div>
+		     <div class="form-group ">
+		      <label class="control-label requiredField" for="date_arrive">
+		       Date arrivé;
+		       <span class="asteriskField">
+		        *
+		       </span>
+		      </label>
+		      <div class="input-group">
+		       <div class="input-group-addon">
+		        <i class="fa fa-calendar-plus-o">
+		        </i>
+		       </div>
+		       <input class="form-control" id="date_arrive" name="datedebut" placeholder="DD/MM/YYYY" type="text"/>
+		      </div>
+		      <span class="help-block" id="hint_date_arrive">
+		       Date d'arrivé prévu à AndroidLand
+		      </span>
+		     </div>
+		     <div class="form-group ">
+		      <label class="control-label requiredField" for="date_depart">
+		       Date depart
+		       <span class="asteriskField">
+		        *
+		       </span>
+		      </label>
+		      <input class="form-control" id="date_depart" name="datedepart" placeholder="DD/MM/YYYY" type="text"/>
+		      <span class="help-block" id="hint_date_depart">
+		       Date de départ d'AndroidLand
+		      </span>
+		     </div>
 
+		   </div>
+			 <!-- formulaire resa -->
+
+
+		<!-- formulaire banque -->
+			 <div class="col-md-6 col-sm-6 col-xs-12">
+		    <form method="post">
+		     <div class="form-group ">
+		      <label class="control-label " for="name2">
+		       Numero CB
+		      </label>
+		      <input class="form-control" id="CB" name="CB" type="text" value="0123456789101112"/>
+		     </div>
+		     <div class="form-group ">
+		      <label class="control-label " for="name3">
+		       Les 3 chiffres au dos de la carte
+		      </label>
+		      <input class="form-control" id="cv" type="text" value="123"/>
+		     </div>
+
+		     <div class="form-group ">
+		      <label class="control-label requiredField" for="date_expiration" value="12/18">Date expiration<span class="asteriskField">*</span></label>
+		      <div class="input-group">
+		       <div class="input-group-addon">
+		        <i class="fa fa-calendar-plus-o">
+		        </i>
+		       </div>
+		       <input class="form-control" id="date_arrive" name="date_arrive" placeholder="MM/YY" type="text" value="12/18"/>
+		      </div>
+		     </div>
+
+		     <div class="form-group ">
+		      <label class="control-label " for="totalPrix">
+		       TOTAL :
+		      </label>
+		      <span id="totalPrix"/>0.00€</span>
+		     </div>
+		     <div class="form-group">
+		      <div>
+		       <button class="btn btn-primary " name="submit" type="submit">
+		        PAYER
+		       </button>
+		      </div>
+		     </div>
+		    </form>
+		   </div>
+
+		  </div>
+		 </div>
+
+
+
+		</div>
+		</div>
 
 
 		<!-- news -->
@@ -717,11 +750,15 @@
 
 		<script src="js/jsdetail.js" charset="utf-8"></script>
 
-		<script type="text/javascript">
+				<script type="text/javascript">
 				$('#formule1').click(function(){
 
 		  	$('#offre').removeAttr('style');
 		  	$('#name2').val('Tarif Simple');
+				var prix = "29";
+				$('#number').val('1');
+				var resultat = (prix * 1) + " €";
+				$('#totalPrix').text(resultat);
 
 		 		});
 
@@ -732,6 +769,10 @@
 
 		  	$('#offre').removeAttr('style');
 		  	$('#name2').val('Tarif Groupe/Famille');
+				var prix = "20";
+				$('#number').val('1');
+				var resultat = (prix * 1) + " €";
+				$('#totalPrix').text(resultat);
 
 		 		});
 
@@ -742,7 +783,21 @@
 
 		  	$('#offre').removeAttr('style');
 		  	$('#name2').val('Tarif Premium');
+				var prix = "15";
+				$('#number').val('1');
+				var resultat = (prix * 1) + " €";
+				$('#totalPrix').text(resultat);
 
+		 		});
+
+		</script>
+
+	<script type="text/javascript">
+		$('#number').change(function(){
+				var prix = parseFloat($('#totalPrix').text());
+				var multiple = $('#number').val();
+				var resultat = (prix * multiple) + " €";
+				$('#totalPrix').text(resultat);
 		 		});
 
 		</script>
