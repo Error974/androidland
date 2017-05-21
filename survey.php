@@ -93,14 +93,14 @@
 				<div class="collapse navbar-collapse" id="collapse-navbar">
 
 				  <ul class="nav navbar-nav navbar-right">
-					<li><a data-scroll href="index.html#services">Services</a></li>
-					<li><a data-scroll href="index.html#gallery">Gallery</a></li>
-					<li><a data-scroll href="index.html#portfolio">Portfolio</a></li>
-					<li><a data-scroll href="index.html#team">Team</a></li>
-					<li><a data-scroll href="index.html#news">News</a></li>
-					<li><a data-scroll href="index.html#pricing">Pricing</a></li>
-					<li><a data-scroll href="index.html#testimonial">Testimonials</a></li>
-					<li><a data-scroll href="index.html#contact">Contact</a></li>
+					<li><a data-scroll href="index.html">Services</a></li>
+					<li><a data-scroll href="index.html">Gallery</a></li>
+					<li><a data-scroll href="index.html">Portfolio</a></li>
+					<li><a data-scroll href="index.html">Team</a></li>
+					<li><a data-scroll href="index.html">News</a></li>
+					<li><a data-scroll href="index.html">Pricing</a></li>
+					<li><a data-scroll href="index.html">Testimonials</a></li>
+					<li><a data-scroll href="index.html">Contact</a></li>
 				  </ul>
 				</div><!-- /.navbar-collapse -->
 			  </div><!-- /.container -->
