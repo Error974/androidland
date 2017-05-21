@@ -50,7 +50,7 @@
 
 
 
-		if(filterVal == 'all') {
+		if(filterVal == 'tout') {
 		  $('ul#portfolio-filter li.hidden').fadeIn('slow').removeClass('hidden');
 		} else {
 		  $('ul#portfolio-filter li').each(function() {
