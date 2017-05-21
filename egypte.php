@@ -205,22 +205,19 @@
 				</section>
 
 				<!-- ./pricing -->
-		<div class="container">        <div id="myCarousel" class="carousel slide" data-ride="carousel">          <!-- Wrapper for slides -->          <div class="carousel-inner">            <div class="item active">              <img src="img/photos/univers/egypte/pyramide_chasse_au_tresor.jpg">               <div class="carousel-caption">                <!-- <h4><a href="#">Lorem ipsum dolor sit amet consetetur sadipscing</a></h4> -->                <p>Chasse au trésor : Un trésor est caché dans une des pyramides du parc</p>								<p>Avis aux aventuriers les plus aguerris de partir à sa recherche et d'obtenir la richesse de Ramsès.</p>              </div>            </div><!-- End Item -->             <div class="item">              <img src="img/photos/univers/egypte/egypte2.jpg">               <div class="carousel-caption">                <!-- <h4><a href="#">consetetur sadipscing elitr, sed diam nonumy eirmod</a></h4> -->                <p>Tournoi du Pharaon</p>								<p>Combattez contre les plus redoubles adversaires et devenez le nouveau roi de l'égypte</p>              </div>            </div><!-- End Item -->            <div class="item">              <img src="img/photos/univers/egypte/egypte3.jpg">               <div class="carousel-caption">                <!-- <h4><a href="#">tempor invidunt ut labore et dolore</a></h4> -->                <p style="font-style: normal;">Course de sarcophage</p>								<p>Descendez les pyramides à toute allure afin d'obtenir un titre</p>              </div>            </div><!-- End Item -->            <div class="item">              <img src="img/photos/univers/egypte/egypte4.jpg">               <div class="carousel-caption">                <!-- <h4><a href="#">magna aliquyam erat, sed diam voluptua</a></h4> -->                <p style="font-style: normal;">L'épreuve du Sphynx</p>								<p style="font-style: normal;">Résolvez les énigmes du sphynx et obtenez des récompenses</p>              </div>            </div><!-- End Item -->            <div class="item">              <img src="img/photos/univers/egypte/egypte5.jpg">               <div class="carousel-caption">                <!-- <h4><a href="#">tempor invidunt ut labore et dolore magna aliquyam erat</a></h4> -->                <p style="font-style: normal;">Le défi de Cléopatre</p>								<p style="font-style: normal;">Un parcours du combattant vous attends dans le désert</p>              </div>            </div><!-- End Item -->          </div><!-- End Carousel Inner -->        <ul class="list-group col-sm-4">          <li data-target="#myCarousel" data-slide-to="0" class="list-group-item active text-center"><p style="color: black;">Activité 1</p></li>          <li data-target="#myCarousel" data-slide-to="1" class="list-group-item text-center"><p style="color: black;">Activité 2</p></li>          <li data-target="#myCarousel" data-slide-to="2" class="list-group-item text-center"><p style="color: black;">Activité 3</p></li>          <li data-target="#myCarousel" data-slide-to="3" class="list-group-item text-center"><p style="color: black;">Activité 4</p></li>          <li data-target="#myCarousel" data-slide-to="4" class="list-group-item text-center"><p style="color: black;">Activité 5</p></li>        </ul>          <!-- Controls -->          <div class="carousel-controls">              <a class="left carousel-control" href="#myCarousel" data-slide="prev">                <span class="glyphicon glyphicon-chevron-left"></span>              </a>              <a class="right carousel-control" href="#myCarousel" data-slide="next">                <span class="glyphicon glyphicon-chevron-right"></span>              </a>          </div>        </div><!-- End Carousel -->				<div style="margin-top: 70px;"></div>    </div>
+		<div class="container">        <div id="myCarousel" class="carousel slide" data-ride="carousel">          <!-- Wrapper for slides -->          <div class="carousel-inner">            <div class="item active">              <img src="img/photos/univers/egypte/pyramide_chasse_au_tresor.jpg">               <div class="carousel-caption">                <!-- <h4><a href="#">Lorem ipsum dolor sit amet consetetur sadipscing</a></h4> -->                <p>Chasse au trésor : Un trésor est caché dans une des pyramides du parc</p>								<p>Avis aux aventuriers les plus aguerris de partir à sa recherche et d'obtenir la richesse de Ramsès.</p>              </div>            </div><!-- End Item -->             <div class="item">              <img src="img/photos/univers/egypte/egypte2.jpg">               <div class="carousel-caption">                <!-- <h4><a href="#">consetetur sadipscing elitr, sed diam nonumy eirmod</a></h4> -->                <p>Tournoi du Pharaon</p>								<p>Combattez contre les plus redoubles adversaires et devenez le nouveau roi de l'égypte</p>              </div>            </div><!-- End Item -->            <div class="item">              <img src="img/photos/univers/egypte/egypte3.jpg">               <div class="carousel-caption">                <!-- <h4><a href="#">tempor invidunt ut labore et dolore</a></h4> -->                <p style="font-style: normal;">Course de sarcophage</p>								<p>Descendez les pyramides à toute allure afin d'obtenir un titre</p>              </div>            </div><!-- End Item -->            <div class="item">              <img src="img/photos/univers/egypte/egypte4.jpg">               <div class="carousel-caption">                <!-- <h4><a href="#">magna aliquyam erat, sed diam voluptua</a></h4> -->                <p style="font-style: normal;">L'épreuve du Sphynx</p>								<p style="font-style: normal;">Résolvez les énigmes du sphynx et obtenez des récompenses</p>              </div>            </div><!-- End Item -->            <div class="item">              <img src="img/photos/univers/egypte/egypte5.jpg">               <div class="carousel-caption">                <!-- <h4><a href="#">tempor invidunt ut labore et dolore magna aliquyam erat</a></h4> -->                <p style="font-style: normal;">Le défi de Cléopatre</p>								<p style="font-style: normal;">Un parcours du combattant vous attends dans le désert</p>              </div>            </div><!-- End Item -->          </div><!-- End Carousel Inner -->        <ul class="list-group col-sm-4">          <li data-target="#myCarousel" data-slide-to="0" class="list-group-item active text-center"><p style="color: black;">Activité 1</p></li>          <li data-target="#myCarousel" data-slide-to="1" class="list-group-item text-center"><p style="color: black;">Activité 2</p></li>          <li data-target="#myCarousel" data-slide-to="2" class="list-group-item text-center"><p style="color: black;">Activité 3</p></li>          <li data-target="#myCarousel" data-slide-to="3" class="list-group-item text-center"><p style="color: black;">Activité 4</p></li>          <li data-target="#myCarousel" data-slide-to="4" class="list-group-item text-center"><p style="color: black;">Activité 5</p></li>        </ul>          <!-- Controls -->          <div class="carousel-controls">              <a class="left carousel-control" href="#myCarousel" data-slide="prev">                <span class="glyphicon glyphicon-chevron-left"></span>              </a>              <a class="right carousel-control" href="#myCarousel" data-slide="next">                <span class="glyphicon glyphicon-chevron-right"></span>              </a>          </div>        </div><!-- End Carousel -->				<div style="margin-top: 70px;"></div>    </div><!-- formulaire resa -->
 <div class="container" id="offre" style="display: none;">
 	<div class="price-box2">
+		<form method="post" action="printBillet.php">
  <div class="container-fluid">
   <div class="row">
    <div class="col-md-6 col-sm-6 col-xs-12">
-    <form method="post">
-     <div class="form-group ">
-      <label class="control-label " for="name2">
-       formule
-      </label>
+     <div class="form-group " hidden>
       <input class="form-control" id="name2" name="name2" type="text"/>
      </div>
      <div class="form-group ">
       <label class="control-label " for="name3">
-       Numéro adhérent
+       Numéro adhérent si carte premium
       </label>
       <input class="form-control" id="name3" name="name3" type="text"/>
      </div>
@@ -231,7 +228,7 @@
         *
        </span>
       </label>
-      <input class="form-control" id="number" name="number" type="text"/>
+      <input class="form-control" id="number" name="nombres" type="text"/>
      </div>
      <div class="form-group ">
       <label class="control-label requiredField" for="date_arrive">
@@ -245,7 +242,7 @@
         <i class="fa fa-calendar-plus-o">
         </i>
        </div>
-       <input class="form-control" id="date_arrive" name="date_arrive" placeholder="DD/MM/YYYY" type="text"/>
+       <input class="form-control" id="date_arrive" name="datedebut" placeholder="DD/MM/YYYY" type="text"/>
       </div>
       <span class="help-block" id="hint_date_arrive">
        Date d'arrivé prévu à AndroidLand
@@ -258,28 +255,64 @@
         *
        </span>
       </label>
-      <input class="form-control" id="date_depart" name="date_depart" placeholder="DD/MM/YYYY" type="text"/>
+      <input class="form-control" id="date_depart" name="datedepart" placeholder="DD/MM/YYYY" type="text"/>
       <span class="help-block" id="hint_date_depart">
        Date de départ d'AndroidLand
       </span>
      </div>
+
+   </div>
+	 <!-- formulaire resa -->
+
+
+<!-- formulaire banque -->
+	 <div class="col-md-6 col-sm-6 col-xs-12">
+    <form method="post">
+     <div class="form-group ">
+      <label class="control-label " for="name2">
+       Numero CB
+      </label>
+      <input class="form-control" id="CB" name="CB" type="text" value="0123456789101112"/>
+     </div>
+     <div class="form-group ">
+      <label class="control-label " for="name3">
+       Les 3 chiffres au dos de la carte
+      </label>
+      <input class="form-control" id="cv" type="text" value="123"/>
+     </div>
+
+     <div class="form-group ">
+      <label class="control-label requiredField" for="date_expiration" value="12/18">Date expiration<span class="asteriskField">*</span></label>
+      <div class="input-group">
+       <div class="input-group-addon">
+        <i class="fa fa-calendar-plus-o">
+        </i>
+       </div>
+       <input class="form-control" id="date_arrive" name="date_arrive" placeholder="MM/YY" type="text" value="12/18"/>
+      </div>
+     </div>
+
      <div class="form-group ">
       <label class="control-label " for="totalPrix">
-       total
+       TOTAL :
       </label>
-      <input class="form-control" id="totalPrix" name="totalPrix" placeholder="0.00&euro;" type="text"/>
+      <span id="totalPrix"/>0.00€</span>
      </div>
      <div class="form-group">
       <div>
        <button class="btn btn-primary " name="submit" type="submit">
-        Valider
+        PAYER
        </button>
       </div>
      </div>
     </form>
    </div>
+
   </div>
  </div>
+
+
+
 </div>
 </div>
 
@@ -412,6 +445,6 @@
 
 		<!-- main js -->
 		<script src="js/main.js"></script>		<script src="js/jsdetail.js" charset="utf-8"></script>
-		<script type="text/javascript">				$('#formule1').click(function(){		  	$('#offre').removeAttr('style');		  	$('#name2').val('Tarif Simple');		 		});		</script>				<script type="text/javascript">				$('#formule2').click(function(){		  	$('#offre').removeAttr('style');		  	$('#name2').val('Tarif Groupe/Famille');		 		});		</script>				<script type="text/javascript">				$('#formule3').click(function(){		  	$('#offre').removeAttr('style');		  	$('#name2').val('Tarif Premium');		 		});		</script>
+		<script type="text/javascript">				$('#formule1').click(function(){		  	$('#offre').removeAttr('style');		  	$('#name2').val('Tarif Simple');				var prix = "29";				$('#number').val('1');				var resultat = (prix * 1) + " €";				$('#totalPrix').text(resultat);		 		});		</script>				<script type="text/javascript">				$('#formule2').click(function(){		  	$('#offre').removeAttr('style');		  	$('#name2').val('Tarif Groupe/Famille');				var prix = "20";				$('#number').val('1');				var resultat = (prix * 1) + " €";				$('#totalPrix').text(resultat);		 		});		</script>				<script type="text/javascript">				$('#formule3').click(function(){		  	$('#offre').removeAttr('style');		  	$('#name2').val('Tarif Premium');				var prix = "15";				$('#number').val('1');				var resultat = (prix * 1) + " €";				$('#totalPrix').text(resultat);		 		});		</script>	<script type="text/javascript">		$('#number').change(function(){				var prix = parseFloat($('#totalPrix').text());				var multiple = $('#number').val();				var resultat = (prix * multiple) + " €";				$('#totalPrix').text(resultat);		 		});		</script>
 	</body>
 </html>
