@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>AndroidLand - Vivez de belles histoires</title>
+		<title>Egypte - Royaume des egyptiens</title>
 
 		<!-- Bootstrap -->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
@@ -80,14 +80,8 @@
 				<div class="collapse navbar-collapse" id="collapse-navbar">
 
 				  <ul class="nav navbar-nav navbar-right">
-						<li><a data-scroll href="index.html">Concept</a></li>
-						<li><a data-scroll href="index.html">Nos univers</a></li>
-						<li><a data-scroll href="index.html">Aperçus</a></li>
-						<li><a data-scroll href="index.html">Androides Stars</a></li>
-						<li><a data-scroll href="index.html">Nouveautés</a></li>
-						<li><a data-scroll href="index.html">Billets d'entrée</a></li>
-						<li><a data-scroll href="index.html">Avis</a></li>
-						<li><a data-scroll href="index.html">Contact</a></li>
+						<li><a data-scroll href="index.html#pricing">Tarifs</a></li>
+						<li><a data-scroll href="index.html#news">Nouveautés</a></li>
 				  </ul>
 				</div><!-- /.navbar-collapse -->
 			  </div><!-- /.container -->
