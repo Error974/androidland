@@ -7,7 +7,7 @@ session_start();
 define('DB_HOST', 'localhost');
 define('DB_USER', 'error974');
 define('DB_PASS', 'LcXb9RRsB7[1j3');
-define('DB_TABLE', 'survey');
+define('DB_TABLE', 'error974');
 
 // define('DB_USER', 'root');
 // define('DB_PASS', '');
