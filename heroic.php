@@ -164,21 +164,9 @@
 
 				  <ul class="nav navbar-nav navbar-right">
 
-						<li><a data-scroll href="index.html#concept">Concept</a></li>
+						<li><a data-scroll href="heroic.php#pricing">Tarifs</a></li>
 
-						<li><a data-scroll href="index.html#nos_univers">Nos univers</a></li>
-
-						<li><a data-scroll href="index.html#univers_disponible">Aperçus</a></li>
-
-						<li><a data-scroll href="index.html#team">Androides Stars</a></li>
-
-						<li><a data-scroll href="index.html#news">Nouveautés</a></li>
-
-						<li><a data-scroll href="index.html#pricing">Billets d'entrée</a></li>
-
-						<li><a data-scroll href="index.html#testimonial">Avis</a></li>
-
-						<li><a data-scroll href="index.html#contact">Contact</a></li>
+						<li><a data-scroll href="heroic.php#news">Nouveautés</a></li>
 
 				  </ul>
 
