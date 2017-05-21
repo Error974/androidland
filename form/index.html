@@ -21,7 +21,7 @@
         </style>
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/main.css">
-		
+
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
@@ -68,6 +68,15 @@
                  </select>
              </div>
 			 <form>
+
+         <div class="input-append date form_datetime" data-date="2013-02-21T15:25:00Z">
+             <input size="16" type="text" value="" readonly>
+             <span class="add-on"><i class="icon-remove"></i></span>
+             <span class="add-on"><i class="icon-calendar"></i></span>
+         </div>
+
+    <div id="classdate" class="datepicker" data-date-format="dd-mm-yyyy">
+
 			<div class="form-group">
                  <label>Date d'arrivée</label>
                  <input type='text' class="form-control" id='datepicker'/>
@@ -75,20 +84,24 @@
 			 <div class="form-group">
                  <label>Date de départ</label>
                  <input type='text' class="form-control" id='datepicker2'/>
-             </div>
-         </form>
-     </div> <!-- /container -->        
-	 
+      </div>
+
+    </div>
+
+
+      </form>
+     </div> <!-- /container -->
+
 
         <script src="js/vendor/bootstrap.min.js"></script>
 
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-		
+
 		<script src="js/jquery.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-		
+
 		<script>
   $(document).ready(function() {
     $("#datepicker").datepicker();
@@ -108,5 +121,18 @@
             document.getElementById("result").innerHTML = total;
         }
     </script>
+
+
+
+    <script type="text/javascript">
+        $(".form_datetime").datetimepicker({
+            format: "dd MM yyyy - hh:ii",
+            autoclose: true,
+            todayBtn: true,
+            startDate: "2013-02-14 10:00",
+            minuteStep: 10
+        });
+    </script>
+
     </body>
 </html>

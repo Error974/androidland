@@ -139,7 +139,7 @@
 
 									</ul>
 
-									<a href="slider-background.html#" class="btn btn-dark btn-lg btn-block">Sélectionner cette offre</a>
+									<a href="#" id="formule1" class="btn btn-dark btn-lg btn-block">Sélectionner cette offre</a>
 
 								</div>
 
@@ -173,7 +173,7 @@
 
 									</ul>
 
-									<a href="slider-background.html#" class="btn btn-dark btn-lg btn-block">Sélectionner cette offre</a>
+									<a href="#" id="formule2" class="btn btn-dark btn-lg btn-block">Sélectionner cette offre</a>
 
 								</div>
 
@@ -202,7 +202,7 @@
 										<li>Accès piscine gratuite</li>
 										<li>Accès Scénarios/Animations</li>
 									</ul>
-									<a href="slider-background.html#" class="btn btn-dark btn-lg btn-block">En savoir plus</a>
+									<a href="#" id="formule3" class="btn btn-dark btn-lg btn-block">En savoir plus</a>
 								</div>
 							</div>
 							<p>*Tarifs dégressif pour association et comité entreprise, merci de prendre contact au 0262 123 456 ou mail contact@androidland.com</p>
@@ -213,7 +213,88 @@
 				<!-- ./pricing -->
 
 
-		<div class="container">        <div id="myCarousel" class="carousel slide" data-ride="carousel">          <!-- Wrapper for slides -->          <div class="carousel-inner">            <div class="item active">              <img src="http://placehold.it/760x400/cccccc/ffffff">               <div class="carousel-caption">                <!-- <h4><a href="#">Lorem ipsum dolor sit amet consetetur sadipscing</a></h4> -->                <p style="">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. </p>              </div>            </div><!-- End Item -->             <div class="item">              <img src="http://placehold.it/760x400/999999/cccccc">               <div class="carousel-caption">                <!-- <h4><a href="#">consetetur sadipscing elitr, sed diam nonumy eirmod</a></h4> -->                <p style="">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. </p>              </div>            </div><!-- End Item -->            <div class="item">              <img src="http://placehold.it/760x400/dddddd/333333">               <div class="carousel-caption">                <!-- <h4><a href="#">tempor invidunt ut labore et dolore</a></h4> -->                <p style="font-style: normal;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. </p>              </div>            </div><!-- End Item -->            <div class="item">              <img src="http://placehold.it/760x400/999999/cccccc">               <div class="carousel-caption">                <!-- <h4><a href="#">magna aliquyam erat, sed diam voluptua</a></h4> -->                <p style="font-style: normal;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>              </div>            </div><!-- End Item -->            <div class="item">              <img src="http://placehold.it/760x400/dddddd/333333">               <div class="carousel-caption">                <!-- <h4><a href="#">tempor invidunt ut labore et dolore magna aliquyam erat</a></h4> -->                <p style="font-style: normal;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>              </div>            </div><!-- End Item -->          </div><!-- End Carousel Inner -->        <ul class="list-group col-sm-4">          <li data-target="#myCarousel" data-slide-to="0" class="list-group-item active"><p style="color: black;">Lorem ipsum dolor sit amet consetetur sadipscing</p></li>          <li data-target="#myCarousel" data-slide-to="1" class="list-group-item"><p style="color: black;">consetetur sadipscing elitr, sed diam nonumy eirmod</p></li>          <li data-target="#myCarousel" data-slide-to="2" class="list-group-item"><p style="color: black;">tempor invidunt ut labore et dolore</p></li>          <li data-target="#myCarousel" data-slide-to="3" class="list-group-item"><p style="color: black;">magna aliquyam erat, sed diam voluptua</p></li>          <li data-target="#myCarousel" data-slide-to="4" class="list-group-item"><p style="color: black;">tempor invidunt ut labore et dolore magna aliquyam erat</p></li>        </ul>          <!-- Controls -->          <div class="carousel-controls">              <a class="left carousel-control" href="#myCarousel" data-slide="prev">                <span class="glyphicon glyphicon-chevron-left"></span>              </a>              <a class="right carousel-control" href="#myCarousel" data-slide="next">                <span class="glyphicon glyphicon-chevron-right"></span>              </a>          </div>        </div><!-- End Carousel -->    </div>
+		<div class="container">        <div id="myCarousel" class="carousel slide" data-ride="carousel">          <!-- Wrapper for slides -->          <div class="carousel-inner">            <div class="item active">              <img src="http://placehold.it/760x400/cccccc/ffffff">               <div class="carousel-caption">                <!-- <h4><a href="#">Lorem ipsum dolor sit amet consetetur sadipscing</a></h4> -->                <p style="">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. </p>              </div>            </div><!-- End Item -->             <div class="item">              <img src="http://placehold.it/760x400/999999/cccccc">               <div class="carousel-caption">                <!-- <h4><a href="#">consetetur sadipscing elitr, sed diam nonumy eirmod</a></h4> -->                <p style="">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. </p>              </div>            </div><!-- End Item -->            <div class="item">              <img src="http://placehold.it/760x400/dddddd/333333">               <div class="carousel-caption">                <!-- <h4><a href="#">tempor invidunt ut labore et dolore</a></h4> -->                <p style="font-style: normal;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. </p>              </div>            </div><!-- End Item -->            <div class="item">              <img src="http://placehold.it/760x400/999999/cccccc">               <div class="carousel-caption">                <!-- <h4><a href="#">magna aliquyam erat, sed diam voluptua</a></h4> -->                <p style="font-style: normal;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>              </div>            </div><!-- End Item -->            <div class="item">              <img src="http://placehold.it/760x400/dddddd/333333">               <div class="carousel-caption">                <!-- <h4><a href="#">tempor invidunt ut labore et dolore magna aliquyam erat</a></h4> -->                <p style="font-style: normal;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>              </div>            </div><!-- End Item -->          </div><!-- End Carousel Inner -->        <ul class="list-group col-sm-4">          <li data-target="#myCarousel" data-slide-to="0" class="list-group-item active"><p style="color: black;">Lorem ipsum dolor sit amet consetetur sadipscing</p></li>          <li data-target="#myCarousel" data-slide-to="1" class="list-group-item"><p style="color: black;">consetetur sadipscing elitr, sed diam nonumy eirmod</p></li>          <li data-target="#myCarousel" data-slide-to="2" class="list-group-item"><p style="color: black;">tempor invidunt ut labore et dolore</p></li>          <li data-target="#myCarousel" data-slide-to="3" class="list-group-item"><p style="color: black;">magna aliquyam erat, sed diam voluptua</p></li>          <li data-target="#myCarousel" data-slide-to="4" class="list-group-item"><p style="color: black;">tempor invidunt ut labore et dolore magna aliquyam erat</p></li>        </ul>          <!-- Controls -->          <div class="carousel-controls">              <a class="left carousel-control" href="#myCarousel" data-slide="prev">                <span class="glyphicon glyphicon-chevron-left"></span>              </a>              <a class="right carousel-control" href="#myCarousel" data-slide="next">                <span class="glyphicon glyphicon-chevron-right"></span>              </a>          </div>        </div><!-- End Carousel -->				<div style="margin-top: 70px;"></div>    </div>
+
+
+<div class="container" id="offre" style="display: none;">
+	<div class="price-box2">
+ <div class="container-fluid">
+  <div class="row">
+   <div class="col-md-6 col-sm-6 col-xs-12">
+    <form method="post">
+     <div class="form-group ">
+      <label class="control-label " for="name2">
+       formule
+      </label>
+      <input class="form-control" id="name2" name="name2" type="text"/>
+     </div>
+     <div class="form-group ">
+      <label class="control-label " for="name3">
+       Num&eacute;ro adh&eacute;rent
+      </label>
+      <input class="form-control" id="name3" name="name3" type="text"/>
+     </div>
+     <div class="form-group ">
+      <label class="control-label requiredField" for="number">
+       Nombre de personne
+       <span class="asteriskField">
+        *
+       </span>
+      </label>
+      <input class="form-control" id="number" name="number" type="text"/>
+     </div>
+     <div class="form-group ">
+      <label class="control-label requiredField" for="date_arrive">
+       Date arriv&eacute;
+       <span class="asteriskField">
+        *
+       </span>
+      </label>
+      <div class="input-group">
+       <div class="input-group-addon">
+        <i class="fa fa-calendar-plus-o">
+        </i>
+       </div>
+       <input class="form-control" id="date_arrive" name="date_arrive" placeholder="DD/MM/YYYY" type="text"/>
+      </div>
+      <span class="help-block" id="hint_date_arrive">
+       Date d'arriv&eacute; pr&eacute;vu &agrave; AndroidLand
+      </span>
+     </div>
+     <div class="form-group ">
+      <label class="control-label requiredField" for="date_depart">
+       Date depart
+       <span class="asteriskField">
+        *
+       </span>
+      </label>
+      <input class="form-control" id="date_depart" name="date_depart" placeholder="DD/MM/YYYY" type="text"/>
+      <span class="help-block" id="hint_date_depart">
+       Date de d&eacute;part d'AndroidLand
+      </span>
+     </div>
+     <div class="form-group ">
+      <label class="control-label " for="totalPrix">
+       total
+      </label>
+      <input class="form-control" id="totalPrix" name="totalPrix" placeholder="0.00&euro;" type="text"/>
+     </div>
+     <div class="form-group">
+      <div>
+       <button class="btn btn-primary " name="submit" type="submit">
+        Valider
+       </button>
+      </div>
+     </div>
+    </form>
+   </div>
+  </div>
+ </div>
+</div>
+</div>
+
+
+
 		<!-- news -->
 		<section id="news" class="section wow fadeInUp">
 			<div class="container">

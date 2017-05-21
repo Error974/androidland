@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <div class="bootstrap-iso">
+ <div class="container-fluid">
+  <div class="row">
+   <div class="col-md-6 col-sm-6 col-xs-12">
+    <form method="post">
+     <div class="form-group ">
+      <label class="control-label " for="name2">
+       formule
+      </label>
+      <input class="form-control" id="name2" name="name2" type="text"/>
+     </div>
+     <div class="form-group ">
+      <label class="control-label " for="name3">
+       Num&eacute;ro adh&eacute;rent
+      </label>
+      <input class="form-control" id="name3" name="name3" type="text"/>
+     </div>
+     <div class="form-group ">
+      <label class="control-label requiredField" for="number">
+       Nombre de personne
+       <span class="asteriskField">
+        *
+       </span>
+      </label>
+      <input class="form-control" id="number" name="number" type="text"/>
+     </div>
+     <div class="form-group ">
+      <label class="control-label requiredField" for="date_arrive">
+       Date arriv&eacute;
+       <span class="asteriskField">
+        *
+       </span>
+      </label>
+      <div class="input-group">
+       <div class="input-group-addon">
+        <i class="fa fa-calendar-plus-o">
+        </i>
+       </div>
+       <input class="form-control" id="date_arrive" name="date_arrive" placeholder="DD/MM/YYYY" type="text"/>
+      </div>
+      <span class="help-block" id="hint_date_arrive">
+       Date d'arriv&eacute; pr&eacute;vu &agrave; AndroidLand
+      </span>
+     </div>
+     <div class="form-group ">
+      <label class="control-label requiredField" for="date_depart">
+       Date depart
+       <span class="asteriskField">
+        *
+       </span>
+      </label>
+      <input class="form-control" id="date_depart" name="date_depart" placeholder="DD/MM/YYYY" type="text"/>
+      <span class="help-block" id="hint_date_depart">
+       Date de d&eacute;part d'AndroidLand
+      </span>
+     </div>
+     <div class="form-group ">
+      <label class="control-label " for="totalPrix">
+       total
+      </label>
+      <input class="form-control" id="totalPrix" name="totalPrix" placeholder="0.00&euro;" type="text"/>
+     </div>
+     <div class="form-group">
+      <div>
+       <button class="btn btn-primary " name="submit" type="submit">
+        Submit
+       </button>
+      </div>
+     </div>
+    </form>
+   </div>
+  </div>
+ </div>
+</div>
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
+</html>
