@@ -88,21 +88,6 @@
 					<img src="img/logo1.png" alt="logo">
 				  </a>
 				</div>
-
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="collapse-navbar">
-
-				  <ul class="nav navbar-nav navbar-right">
-					<li><a data-scroll href="index.html">Services</a></li>
-					<li><a data-scroll href="index.html">Gallery</a></li>
-					<li><a data-scroll href="index.html">Portfolio</a></li>
-					<li><a data-scroll href="index.html">Team</a></li>
-					<li><a data-scroll href="index.html">News</a></li>
-					<li><a data-scroll href="index.html">Pricing</a></li>
-					<li><a data-scroll href="index.html">Testimonials</a></li>
-					<li><a data-scroll href="index.html">Contact</a></li>
-				  </ul>
-				</div><!-- /.navbar-collapse -->
 			  </div><!-- /.container -->
 			</nav>
 		</header>
@@ -127,7 +112,7 @@
 								<div class="separator"></div>
 								<?php foreach($answers as $answer): ?>
 									<div class="radio">
-										<?= $answer['answer'] ?> <?php $timed = ($answer['nb_answer'] * 100); echo round( $timed/$totalAnswer, 0); ?>%
+										<?= $answer['answer'] ?> <?php $timed = ($answer['nb_answer'] * 100); echo round( $timed/$totalAnswer); ?>%
 									</div>
 								<?php endforeach; ?>
 							<?php else: ?>
